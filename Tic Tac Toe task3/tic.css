@@ -1,8 +1,12 @@
-<style>
+
+	body{
+		background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+	}
 	/* CSS Code */
 	/* Heading */
 	h1 {
-		color: orangered;
+		color: rgb(196, 247, 43);
 		font-size: 45px;
 	}
 
@@ -12,8 +16,11 @@
 		width: 80px;
 		height: 52px;
 		margin: auto;
-		border: 1px solid gray;
+		cursor:pointer;
+		border: 1px solid white;
 		border-radius: 6px;
+		color:#000;
+		background-color:white;
 		font-size: 30px;
 		text-align: center;
 	}
@@ -40,7 +47,7 @@
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
 
-		color: dodgerblue;
+		color: rgb(179, 209, 238);
 		font-size: 20px;
 	}
 
@@ -54,7 +61,6 @@
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
 			
-		color: dodgerblue;
+		color: rgb(176, 208, 239);
 		font-size: 17px;
 	}
-</style>
